@@ -1,0 +1,19 @@
+﻿<div class="sidebar @StateCssClass">
+@*<DxTreeView AllowSelectNodes="true" CssClass="app-sidebar">
+    <Nodes>
+        <DxTreeViewNode NavigateUrl="./" Text="Overview"></DxTreeViewNode>
+        <DxTreeViewNode NavigateUrl="grid" Text="Grid"></DxTreeViewNode>
+    </Nodes>
+</DxTreeView>*@
+    <DxTreeView @ref="@treeView" CssClass="app-sidebar" Data="@DApp.Menus" LoadChildNodesOnDemand="true" AllowSelectNodes="true">
+        <DataMappings>
+            <DxTreeViewDataMapping HasChildren="HasGroups" Children="Options" Text="Name" NavigateUrl="Url" IconCssClass="Icon" />
+        </DataMappings>
+    </DxTreeView>
+</div>
+
+@code {
+    [Parameter] public string? StateCssClass { get; set; }
+
+    DxTreeView treeView;
+}

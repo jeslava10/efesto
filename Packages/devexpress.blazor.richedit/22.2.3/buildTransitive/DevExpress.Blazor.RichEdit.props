@@ -1,0 +1,3 @@
+<Project>
+  <Import Project="..\buildMultiTargeting\DevExpress.Blazor.RichEdit.props" />
+</Project>

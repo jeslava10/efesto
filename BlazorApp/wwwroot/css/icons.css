@@ -1,0 +1,93 @@
+﻿.icon {
+    display: inline-block;
+    text-rendering: auto;
+    font-family: "demo-icons" !important;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+    .icon.grid_toolbar_new {
+        height: 16px;
+        width: 16px;
+        background-image: url("../images/icons/GridToolbarNew.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+
+    .icon.grid_toolbar_edit {
+        height: 16px;
+        width: 16px;
+        background-image: url("../images/icons/GridToolbarEdit.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+
+    .icon.grid_toolbar_delete {
+        height: 16px;
+        width: 16px;
+        background-image: url("../images/icons/GridToolbarDelete.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+
+    .icon.grid_toolbar_filter_row {
+        height: 16px;
+        width: 16px;
+        background-image: url("../images/icons/GridToolbarFilterRow.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+
+    .icon.grid_toolbar_document {
+        height: 16px;
+        width: 16px;
+        background-image: url("../images/icons/GridToolbarDocument.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+
+    .icon.grid_toolbar_refresh {
+        height: 16px;
+        width: 16px;
+        background-image: url("../images/icons/GridToolbarRefresh.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+
+    .icon.grid_toolbar_back {
+        height: 16px;
+        width: 16px;
+        background-image: url("../images/icons/GridToolbarArrow.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+
+    .icon.grid_toolbar_save {
+        height: 16px;
+        width: 16px;
+        background-image: url("../images/icons/GridToolbarSave2.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+
+    .icon.grid_toolbar_search {
+        height: 16px;
+        width: 16px;
+        background-image: url("../images/icons/GridToolbarSearch.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+
+

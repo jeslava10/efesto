@@ -1,0 +1,6 @@
+.vs
+bin
+obj
+.vscode
+.vshistory
+/Hefestos/Hefestos.Frontend.Core/*.user
